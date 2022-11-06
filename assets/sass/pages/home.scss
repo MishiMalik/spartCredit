@@ -413,9 +413,16 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background-color: white;
     h1{
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 600;
         color: $black;
+        display: flex;
+        align-items: flex-end;
+
+        span{
+            font-size: 18px;
+            color: $primary;
+        }
     }
     img{
         height: 130px;
