@@ -159,7 +159,8 @@ body {
   .navbar-nav .nav-item .nav-link {
     font-size: 17px !important;
     color: #333333;
-    font-weight: 500; }
+    font-weight: 500;
+    text-transform: capitalize; }
     .navbar-nav .nav-item .nav-link:hover {
       color: #81DBDB; }
     @media only screen and (max-width: 1200px) {
@@ -263,7 +264,9 @@ body {
 .about-img {
   border-radius: 0px 40px 0px 40px;
   border-top: 20px solid #81DBDB;
-  border-right: 20px solid #81DBDB; }
+  border-right: 20px solid #81DBDB;
+  height: 483px !important;
+  width: 90%; }
 
 .about-text h1 {
   font-size: 32px;
@@ -274,7 +277,8 @@ body {
       font-size: 28px; } }
 
 .about-text p {
-  font-size: 16px; }
+  font-size: 16px;
+  text-align: justify; }
 
 .about-quote {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -613,3 +617,39 @@ body {
 .copyright {
   border-top: 1px solid #FBFBFB;
   padding: 20px 0px 0px 0px; }
+
+.about-heading {
+  background-image: url("/assets/images/about-page.jpg");
+  height: 70vh;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .about-heading h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #032E42; }
+
+.line {
+  width: 100px;
+  height: 3px;
+  background-color: #032E42; }
+
+.about-cards {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: white;
+  padding: 15px 20px;
+  width: 250px;
+  border-radius: 0px 40px 0px 40px; }
+  @media only screen and (max-width: 500px) {
+    .about-cards {
+      margin: 4px auto !important; } }
+  .about-cards img {
+    height: 100px;
+    width: 100px; }
+  .about-cards h1 {
+    font-size: 20px;
+    font-weight: 500; }
+  .about-cards p {
+    font-size: 14px; }

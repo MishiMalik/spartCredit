@@ -1,0 +1,42 @@
+.about-heading{
+    background-image: url('/assets/images/about-page.jpg');
+    height: 70vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    h1{
+        font-size: 50px;
+        font-weight: 600;
+        color: $black;
+    }
+}
+.line{
+    width: 100px;
+    height: 3px;
+    background-color: $black;
+}
+// ====================about card
+.about-cards{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    padding: 15px 20px;
+    width: 250px;
+    border-radius: 0px 40px 0px 40px;
+    @media only screen and (max-width:500px){
+       margin: 4px auto !important;
+    }
+    img{
+        height: 100px;
+        width: 100px;
+    }
+    h1{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    p{
+        font-size: 14px;
+    }
+}

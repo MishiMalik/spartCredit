@@ -94,6 +94,8 @@
     border-radius: 0px 40px 0px 40px;
     border-top: 20px solid $primary;
     border-right: 20px solid $primary;
+    height: 483px !important;
+    width:90%;
 }
 .about-text{
     h1{
@@ -106,6 +108,7 @@
     }
     p{
         font-size: 16px;
+        text-align: justify;
     }
 }
 .about-quote{
