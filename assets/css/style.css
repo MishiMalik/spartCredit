@@ -486,7 +486,7 @@ body {
   top: 230px; }
   @media only screen and (max-width: 991px) {
     .carousel-indicators {
-      top: 440px; } }
+      top: 460px; } }
   .carousel-indicators button {
     background-color: #81DBDB !important;
     height: 15px !important;
@@ -560,7 +560,7 @@ body {
 
 .footer {
   background-color: #032E42;
-  padding: 50px 0px; }
+  padding: 50px 0px 0px 0px; }
   .footer .footer-heading {
     margin-bottom: 25px !important;
     font-size: 25px;
@@ -604,3 +604,7 @@ body {
     line-height: 15px; }
     .footer-social div a:hover {
       color: white; }
+
+.copyright {
+  border-top: 1px solid #FBFBFB;
+  padding: 20px 0px 0px 0px; }

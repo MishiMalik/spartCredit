@@ -348,7 +348,7 @@
 .carousel-indicators{
    top: 230px;
    @media only screen and (max-width:991px){
-   top: 440px;
+   top: 460px;
      }
     button{
         background-color: $primary !important;
@@ -445,7 +445,7 @@
 // =====================================footer
 .footer{
     background-color: $black;
-    padding: 50px 0px;
+    padding: 50px 0px 0px 0px;
     .footer-heading{
        margin-bottom: 25px !important;
         font-size: 25px;
@@ -496,4 +496,8 @@
             color: white;
         }
     }
+}
+.copyright{
+    border-top: 1px solid $light-gray;
+    padding: 20px 0px 0px 0px;
 }
