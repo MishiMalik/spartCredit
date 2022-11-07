@@ -170,7 +170,7 @@ body {
       .navbar-nav .nav-item .nav-link {
         font-size: 17px; } }
   .navbar-nav .nav-item .active-nav {
-    color: #81DBDB; }
+    color: #81DBDB !important; }
 
 .navbar-collapse {
   background-color: white;
@@ -180,13 +180,18 @@ body {
       border-bottom: 2px solid #81DBDB; } }
 
 .dropdown-menu {
-  background-color: #81DBDB !important;
+  background-color: white !important;
   border: 1px solid #81DBDB;
-  border-radius: 0px !important; }
+  border-radius: 0px !important;
+  color: #032E42;
+  padding: 10px 15px;
+  top: 55px !important; }
   .dropdown-menu .dropdown-item {
     font-size: 18px;
     font-weight: 500;
-    color: white !important; }
+    color: #333333 !important;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #FBFBFB; }
     .dropdown-menu .dropdown-item:hover {
       background-color: white;
       color: #81DBDB !important; }
@@ -267,6 +272,27 @@ body {
   border-right: 20px solid #81DBDB;
   height: 483px !important;
   width: 90%; }
+  @media only screen and (max-width: 991px) {
+    .about-img {
+      height: 300px !important;
+      width: auto;
+      margin: 10px auto !important;
+      display: flex;
+      align-self: center; } }
+
+.about-img2 {
+  border-radius: 40px 0px 40px 0px;
+  border-top: 20px solid #81DBDB;
+  border-left: 20px solid #81DBDB;
+  height: 483px !important;
+  width: 90%; }
+  @media only screen and (max-width: 991px) {
+    .about-img2 {
+      height: 300px !important;
+      width: auto;
+      margin: 10px auto !important;
+      display: flex;
+      align-self: center; } }
 
 .about-text h1 {
   font-size: 32px;
@@ -510,7 +536,8 @@ body {
     text-align: center; }
 
 .package-card-div {
-  padding: 20px; }
+  padding: 20px;
+  margin-bottom: 40px; }
 
 .price {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -642,9 +669,9 @@ body {
   padding: 15px 20px;
   width: 250px;
   border-radius: 0px 40px 0px 40px; }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 1050px) {
     .about-cards {
-      margin: 4px auto !important; } }
+      display: none; } }
   .about-cards img {
     height: 100px;
     width: 100px; }
@@ -653,3 +680,402 @@ body {
     font-weight: 500; }
   .about-cards p {
     font-size: 14px; }
+
+.results-heading {
+  background-image: url("/assets/images/istockphoto-579421538-170667a.jpg");
+  height: 70vh;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .results-heading h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: white; }
+  .results-heading .line {
+    width: 100px;
+    height: 3px;
+    background-color: white; }
+
+.results-text h1 {
+  font-size: 30px;
+  font-weight: 600; }
+  @media only screen and (max-width: 479px) {
+    .results-text h1 {
+      font-size: 28px; } }
+
+.results-text p {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify; }
+
+.results-text ul {
+  list-style: none; }
+  .results-text ul li {
+    font-size: 16px;
+    font-weight: 600; }
+    .results-text ul li i {
+      color: #81DBDB;
+      font-size: 20px; }
+
+.results-text h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333333;
+  margin: 15px 0px; }
+  @media only screen and (max-width: 479px) {
+    .results-text h3 {
+      font-size: 17px; } }
+
+.results-service {
+  border-radius: 0px 40px 0px 40px !important;
+  padding: 45px 0px !important; }
+  .results-service h1 {
+    font-size: 30px; }
+
+.results-heading-text {
+  font-size: 28px;
+  font-weight: 600;
+  color: #032E42; }
+  .results-heading-text i {
+    color: #81DBDB;
+    font-size: 35px; }
+  @media only screen and (max-width: 479px) {
+    .results-heading-text {
+      font-size: 20px; } }
+
+.education-heading {
+  background: linear-gradient(90deg, rgba(128, 128, 128, 0.477), rgba(128, 128, 128, 0.485)), url("/assets/images/edu1.jpg");
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .education-heading h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: white; }
+    @media only screen and (max-width: 479px) {
+      .education-heading h1 {
+        font-size: 25px; } }
+  .education-heading .line {
+    width: 100px;
+    height: 3px;
+    background-color: white; }
+
+.service-btn button {
+  background-color: white;
+  font-size: 18px !important;
+  color: #81DBDB;
+  padding: 14px 15px;
+  border-radius: 0px 15px 0px 15px;
+  border: 0px solid #81DBDB;
+  font-weight: 500;
+  border: 2px solid #81DBDB;
+  text-align: left;
+  width: 100%;
+  position: relative; }
+  .service-btn button:hover {
+    background-color: #81DBDB;
+    color: white; }
+  .service-btn button i {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px; }
+
+.service-btn-active button {
+  background-color: #81DBDB;
+  font-size: 18px !important;
+  color: white;
+  padding: 14px 15px;
+  border-radius: 0px 15px 0px 15px;
+  border: 0px solid #81DBDB;
+  font-weight: 500;
+  border: 2px solid #81DBDB;
+  text-align: left;
+  position: relative; }
+  .service-btn-active button i {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px; }
+
+.service-img img {
+  height: 450px;
+  width: 100%; }
+  @media only screen and (max-width: 479px) {
+    .service-img img {
+      height: 300px;
+      width: auto; } }
+
+@media only screen and (max-width: 479px) {
+  .sm-none {
+    display: none; } }
+
+.repair-heading {
+  background: linear-gradient(90deg, rgba(128, 128, 128, 0.477), rgba(128, 128, 128, 0.485)), url("/assets/images/creditcard3.jpg");
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .repair-heading h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: white; }
+    @media only screen and (max-width: 479px) {
+      .repair-heading h1 {
+        font-size: 25px; } }
+  .repair-heading .line {
+    width: 100px;
+    height: 3px;
+    background-color: white; }
+
+.approval-heading {
+  background: linear-gradient(90deg, rgba(128, 128, 128, 0.477), rgba(128, 128, 128, 0.485)), url("/assets/images/dylan-gillis-xKmXZ4Fv63w-unsplash.jpg");
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .approval-heading h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: white; }
+    @media only screen and (max-width: 479px) {
+      .approval-heading h1 {
+        font-size: 25px; } }
+  .approval-heading .line {
+    width: 100px;
+    height: 3px;
+    background-color: white; }
+
+.limit-heading {
+  background: linear-gradient(90deg, rgba(128, 128, 128, 0.477), rgba(128, 128, 128, 0.485)), url("/assets/images/blake-wisz-q3o_8MteFM0-unsplash.jpg");
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .limit-heading h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: white; }
+    @media only screen and (max-width: 479px) {
+      .limit-heading h1 {
+        font-size: 25px; } }
+  .limit-heading .line {
+    width: 100px;
+    height: 3px;
+    background-color: white; }
+
+.negative-heading {
+  background: linear-gradient(90deg, rgba(128, 128, 128, 0.477), rgba(128, 128, 128, 0.485)), url("/assets/images/wallpaper2.jpg");
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .negative-heading h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: white; }
+    @media only screen and (max-width: 479px) {
+      .negative-heading h1 {
+        font-size: 25px; } }
+  .negative-heading .line {
+    width: 100px;
+    height: 3px;
+    background-color: white; }
+
+.tradeline-heading {
+  background: linear-gradient(90deg, rgba(128, 128, 128, 0.477), rgba(128, 128, 128, 0.485)), url("/assets/images/raul-varzar-PdeoQLQFAPg-unsplash.jpg");
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .tradeline-heading h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: white; }
+    @media only screen and (max-width: 479px) {
+      .tradeline-heading h1 {
+        font-size: 25px; } }
+  .tradeline-heading .line {
+    width: 100px;
+    height: 3px;
+    background-color: white; }
+
+.details-card {
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.07);
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px; }
+  .details-card h1 {
+    font-size: 24px !important; }
+
+.details-card-text h1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #032E42; }
+
+.details-card-text h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #81DBDB; }
+
+.details-card-text ul {
+  padding: 0px;
+  list-style: none; }
+  .details-card-text ul li {
+    font-size: 16px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #FBFBFB; }
+    .details-card-text ul li i {
+      color: #81DBDB; }
+
+.price-row {
+  background-color: #81DBDB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-bottom: 10px; }
+  .price-row h1 {
+    font-size: 16px !important;
+    color: white;
+    font-weight: 500;
+    margin: 0px !important;
+    padding: 0px !important; }
+  .price-row h2 {
+    font-size: 16px !important;
+    color: white;
+    font-weight: 500;
+    margin: 0px !important;
+    padding: 0px !important; }
+
+.notice {
+  background-color: rgba(255, 0, 0, 0.259);
+  border: 1px solid red;
+  padding: 14px;
+  border-radius: 5px; }
+  .notice h1 {
+    color: red;
+    font-size: 20px !important;
+    font-weight: 500; }
+
+.contact-heading {
+  background-image: url("/assets/images/contact.jpg");
+  height: 70vh;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .contact-heading h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: white; }
+  .contact-heading .line {
+    width: 100px;
+    height: 3px;
+    background-color: white; }
+
+.contact-text h2 {
+  color: #81DBDB;
+  font-size: 20px;
+  font-weight: 500; }
+
+.contact-text h1 {
+  color: #333333 !important;
+  font-size: 30px;
+  font-weight: 700; }
+
+.contact-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #81DBDB;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  margin-right: 20px;
+  flex-shrink: 0 !important; }
+  .contact-icon i {
+    color: white;
+    font-size: 20px; }
+
+.contact-info h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px; }
+
+.contact-info p {
+  font-size: 16px;
+  color: gray; }
+
+.contact-form {
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.07);
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px; }
+  .contact-form .contact-input {
+    padding: 7px 10px;
+    border: none !important;
+    border-bottom: 1px solid #969595 !important;
+    font-size: 16px;
+    color: #333333;
+    margin: 20px 0px; }
+    .contact-form .contact-input::placeholder {
+      color: gray;
+      font-size: 16px; }
+    .contact-form .contact-input:focus {
+      outline: none !important; }
+
+.accordion-button:not(.collapsed) {
+  color: white !important;
+  background-color: #81DBDB !important;
+  box-shadow: none !important;
+  border-radius: 0px 40px 0px 40px !important; }
+
+.accordion-item {
+  border: none !important; }
+
+.accordion-button {
+  font-size: 16px;
+  color: #032E42;
+  font-weight: 600;
+  border-top: 1px solid #FBFBFB;
+  border-bottom: 1px solid #FBFBFB;
+  border-left: none !important;
+  border-right: none !important; }
+  .accordion-button:focus {
+    outline: none !important;
+    box-shadow: none !important; }
+
+.appointment-heading {
+  background: linear-gradient(90deg, rgba(128, 128, 128, 0.477), rgba(128, 128, 128, 0.485)), url("/assets/images/raul-varzar-PdeoQLQFAPg-unsplash.jpg");
+  height: 70vh;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .appointment-heading h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: white; }
+  .appointment-heading .line {
+    width: 100px;
+    height: 3px;
+    background-color: white; }

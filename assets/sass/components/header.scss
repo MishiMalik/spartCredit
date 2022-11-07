@@ -55,7 +55,7 @@
         }
       }
       .active-nav{
-        color: $primary;
+        color: $primary !important;
       }
     }
 }
@@ -68,14 +68,18 @@
 }
 
 .dropdown-menu{
-    background-color: $primary !important;
+    background-color:white !important;
     border: 1px solid $primary;
     border-radius: 0px !important;
-
+    color: $black;
+   padding: 10px 15px;
+   top: 55px !important;
     .dropdown-item{
         font-size: 18px;
         font-weight: 500;
-        color:white !important;
+        color:$light-dark !important;
+        padding-bottom: 10px;
+        border-bottom: 1px solid $light-gray;
 
         &:hover{
             background-color: white;

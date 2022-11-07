@@ -96,6 +96,27 @@
     border-right: 20px solid $primary;
     height: 483px !important;
     width:90%;
+    @media only screen and (max-width:991px){
+       height: 300px !important;
+       width: auto;
+       margin: 10px auto !important;
+       display: flex;
+       align-self: center;
+    }
+}
+.about-img2{
+    border-radius: 40px 0px 40px 0px;
+    border-top: 20px solid $primary;
+    border-left: 20px solid $primary;
+    height: 483px !important;
+    width:90%;
+    @media only screen and (max-width:991px){
+       height: 300px !important;
+       width: auto;
+       margin: 10px auto !important;
+       display: flex;
+       align-self: center;
+    }
 }
 .about-text{
     h1{
@@ -377,6 +398,7 @@
 // <!-- ===================================================pricing packages -->
 .package-card-div{
     padding: 20px;
+    margin-bottom: 40px;
 }
 .price{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;

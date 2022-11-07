@@ -1,0 +1,75 @@
+.results-heading{
+        background-image: url('/assets/images/istockphoto-579421538-170667a.jpg');
+        height: 70vh;
+        background-position: right center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+    
+        h1{
+            font-size: 50px;
+            font-weight: 600;
+            color:white;
+        }
+    .line{
+        width: 100px;
+        height: 3px;
+        background-color:white;
+    }
+}
+.results-text{
+    h1{
+        font-size: 30px;
+        font-weight: 600;
+        @media only screen and (max-width:479px){
+          font-size: 28px;
+         }
+    }
+    p{
+        font-size: 16px;
+        font-weight: 500;
+        text-align: justify;
+    }
+    ul{
+        list-style: none;
+        li{
+            font-size: 16px;
+            font-weight: 600;
+            i{
+                color: $primary;
+                font-size: 20px;
+
+            }
+        }
+    }
+    h3{
+        font-size: 18px;
+        font-weight: 700;
+        color: $light-dark;
+        margin: 15px 0px;
+        @media only screen and (max-width:479px){
+            font-size: 17px;
+        }
+    }
+}
+.results-service{
+    border-radius: 0px 40px 0px 40px !important;
+    padding: 45px 0px !important;
+    h1{
+        font-size: 30px;
+    }
+    
+}
+.results-heading-text {
+    font-size: 28px;
+    font-weight: 600;
+    color: $black;
+    i{
+        color: $primary;
+        font-size: 35px;
+    }
+    @media only screen and (max-width:479px){
+        font-size: 20px;
+    }
+}

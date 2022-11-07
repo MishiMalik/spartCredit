@@ -1,0 +1,268 @@
+.education-heading{
+    background: linear-gradient(90deg, rgba(128, 128, 128, 0.477), rgba(128, 128, 128, 0.485)), url('/assets/images/edu1.jpg');;
+    height: 70vh;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    h1{
+        font-size: 50px;
+        font-weight: 600;
+        color:white;
+
+        @media only screen and (max-width:479px){
+            font-size: 25px;
+        }
+    }
+.line{
+    width: 100px;
+    height: 3px;
+    background-color:white;
+}
+}
+// ======================service btns
+.service-btn button{
+    background-color: white;
+    font-size: 18px !important;
+    color: $primary;
+    padding: 14px 15px;
+    border-radius: 0px 15px 0px 15px;
+    border: 0px solid $primary;
+    font-weight: 500;
+    border: 2px solid $primary;
+    text-align: left;
+    width: 100%;
+    position: relative;
+    &:hover{
+        background-color: $primary;
+        color: white;
+    }
+    i{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 20px
+    }
+   
+}
+
+
+.service-btn-active button{
+    background-color: $primary;
+    font-size: 18px !important;
+    color: white;
+    padding: 14px 15px;
+    border-radius: 0px 15px 0px 15px;
+    border: 0px solid $primary;
+    font-weight: 500;
+    border: 2px solid $primary;
+   text-align: left;
+   position: relative;
+   i{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px
+}
+   
+}
+.service-img img{
+    height: 450px;
+    width: 100%;
+    @media only screen and (max-width:479px){
+        height: 300px;
+        width: auto;
+    }
+}
+.sm-none{
+    @media only screen and (max-width:479px){
+       display: none;
+    }
+}
+.repair-heading{
+    background: linear-gradient(90deg, rgba(128, 128, 128, 0.477), rgba(128, 128, 128, 0.485)), url('/assets/images/creditcard3.jpg');;
+    height: 70vh;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    h1{
+        font-size: 50px;
+        font-weight: 600;
+        color:white;
+        @media only screen and (max-width:479px){
+            font-size: 25px;
+        }
+    }
+.line{
+    width: 100px;
+    height: 3px;
+    background-color:white;
+}
+}
+.approval-heading{
+    background: linear-gradient(90deg, rgba(128, 128, 128, 0.477), rgba(128, 128, 128, 0.485)), url('/assets/images/dylan-gillis-xKmXZ4Fv63w-unsplash.jpg');;
+    height: 70vh;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    h1{
+        font-size: 50px;
+        font-weight: 600;
+        color:white;
+        @media only screen and (max-width:479px){
+            font-size: 25px;
+        }
+    }
+.line{
+    width: 100px;
+    height: 3px;
+    background-color:white;
+}
+}
+
+.limit-heading{
+    background: linear-gradient(90deg, rgba(128, 128, 128, 0.477), rgba(128, 128, 128, 0.485)), url('/assets/images/blake-wisz-q3o_8MteFM0-unsplash.jpg');;
+    height: 70vh;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    h1{
+        font-size: 50px;
+        font-weight: 600;
+        color:white;
+        @media only screen and (max-width:479px){
+            font-size: 25px;
+        }
+    }
+.line{
+    width: 100px;
+    height: 3px;
+    background-color:white;
+}
+}
+
+.negative-heading{
+    background: linear-gradient(90deg, rgba(128, 128, 128, 0.477), rgba(128, 128, 128, 0.485)), url('/assets/images/wallpaper2.jpg');;
+    height: 70vh;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    h1{
+        font-size: 50px;
+        font-weight: 600;
+        color:white;
+        @media only screen and (max-width:479px){
+            font-size: 25px;
+        }
+    }
+.line{
+    width: 100px;
+    height: 3px;
+    background-color:white;
+}
+}
+.tradeline-heading{
+    background: linear-gradient(90deg, rgba(128, 128, 128, 0.477), rgba(128, 128, 128, 0.485)), url('/assets/images/raul-varzar-PdeoQLQFAPg-unsplash.jpg');;
+    height: 70vh;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    h1{
+        font-size: 50px;
+        font-weight: 600;
+        color:white;
+        @media only screen and (max-width:479px){
+            font-size: 25px;
+        }
+    }
+.line{
+    width: 100px;
+    height: 3px;
+    background-color:white;
+}
+}
+// ====================================pkg details
+.details-card{
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.07);
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    h1{
+        font-size: 24px !important;
+    }
+}
+.details-card-text{
+    h1{
+        font-size: 20px;
+        font-weight: 500;
+        color: $black;
+    }
+    h2{
+        font-size: 18px;
+        font-weight: 600;
+        color: $primary;
+
+    }
+    ul{
+        padding: 0px;
+        list-style: none;
+        li{
+            font-size: 16px;
+            padding: 10px 0px;
+            border-bottom: 1px solid $light-gray;
+            i{
+                color: $primary;
+            }
+        }
+    }
+}
+.price-row{
+    background-color: $primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-bottom: 10px;
+    h1{
+        font-size: 16px !important;
+        color: white;
+        font-weight: 500;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    h2{
+        font-size: 16px !important;
+        color: white;
+        font-weight: 500;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+}
+.notice{
+    background-color: rgba(255, 0, 0, 0.259);
+    border: 1px solid red;
+    padding: 14px;
+    border-radius: 5px;
+    h1{
+        color: red;
+        font-size: 20px !important;
+        font-weight: 500;
+    }
+}
