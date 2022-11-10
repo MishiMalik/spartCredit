@@ -31,16 +31,16 @@ body{
     }
 }
 .button-black button{
-    background-color: $black;
+    background-color: $primary;
     font-size: 16px !important;
     color: white;
     padding: 12px 10px;
     border-radius: 0px 15px 0px 15px;
-    border: 0px solid $black;
+    border: 0px solid $primary;
     font-weight: 500;
 
     &:hover{
         background-color: white;
-        color: $black;
+        color: $primary;
     }
 }

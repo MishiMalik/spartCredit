@@ -59,7 +59,7 @@
   color: #BB0B0B; }
 
 .text-primary {
-  color: #81DBDB !important; }
+  color: white !important; }
 
 .small-heading {
   font-size: 20px;
@@ -109,19 +109,19 @@ body {
       font-size: 17px !important; } }
 
 .button-black button {
-  background-color: #032E42;
+  background-color: #81DBDB;
   font-size: 16px !important;
   color: white;
   padding: 12px 10px;
   border-radius: 0px 15px 0px 15px;
-  border: 0px solid #032E42;
+  border: 0px solid #81DBDB;
   font-weight: 500; }
   .button-black button:hover {
     background-color: white;
-    color: #032E42; }
+    color: #81DBDB; }
 
 .social-header {
-  background-color: #032E42;
+  background-color: #81DBDB;
   padding: 12px 15px;
   height: 50px; }
   @media only screen and (max-width: 991px) {
@@ -238,7 +238,7 @@ body {
       .slider-card h1 {
         font-size: 32px; } }
   .slider-card p {
-    color: #032E42;
+    color: black;
     font-size: 16px; }
     @media only screen and (max-width: 579px) {
       .slider-card p {
@@ -595,7 +595,7 @@ body {
   margin-bottom: -40px; }
 
 .footer {
-  background-color: #032E42;
+  background-color: #13c5c5;
   padding: 50px 0px 0px 0px; }
   .footer .footer-heading {
     margin-bottom: 40px !important;
@@ -646,15 +646,13 @@ body {
   padding: 20px 0px 0px 0px; }
 
 .about-heading {
-  background-image: url("/assets/images/about-page.jpg");
-  height: 70vh;
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   align-items: center; }
   .about-heading h1 {
-    font-size: 50px;
+    font-size: 20px;
     font-weight: 600;
     color: #032E42; }
 

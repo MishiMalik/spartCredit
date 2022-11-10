@@ -1,6 +1,6 @@
 .about-heading{
-    background-image: url('/assets/images/about-page.jpg');
-    height: 70vh;
+    // background-image: url('/assets/images/about-page.jpg');
+    // height: 70vh;
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,15 +8,15 @@
     align-items: center;
 
     h1{
-        font-size: 50px;
+        font-size: 20px;
         font-weight: 600;
-        color: $black;
+        color: $secondary;
     }
 }
 .line{
     width: 100px;
     height: 3px;
-    background-color: $black;
+    background-color: $secondary;
 }
 // ====================about card
 .about-cards{

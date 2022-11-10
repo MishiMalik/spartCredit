@@ -1,7 +1,8 @@
 // =========================================colors
 $primary:#81DBDB;
 $red:#BB0B0B;
-$black:#032E42;
+$secondary:#032E42;
+$tertiary:#13c5c5;
 $light-dark:#333333;
 $light-gray:#FBFBFB;
 
@@ -75,7 +76,7 @@ $light-gray:#FBFBFB;
     color: $red;
 }
 .text-primary{
-    color: $primary !important;
+    color: white !important;
 }
 
 
