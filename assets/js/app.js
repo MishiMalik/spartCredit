@@ -29,15 +29,62 @@ owl.owlCarousel({
       },
       400:{
           items:3,
-          nav:false
       },
       1000:{
           items:5,
           nav:true,
-          loop:false
+          loop:true
       }
   }
 });
+
+  // ==========================================packages
+  function packages_duraton(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent-duration");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinksD");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active-duration", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active-duration";
+  }
+  document.getElementById("defaultpkg-duration").click();
+
+
+  function packages(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent-pkg");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active-pkg", "");
+    }
+    document.getElementById(cityName).style.display = "flex";
+    evt.currentTarget.className += " active-pkg";
+  }
+  document.getElementById("defaultOpenpkg").click();
+
+  function packagesC(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent-pkgC");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinksC");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active-pkgC", "");
+    }
+    document.getElementById(cityName).style.display = "flex";
+    evt.currentTarget.className += " active-pkgC";
+  }
+  document.getElementById("defaultOpenpkgC").click();
+
 
   // =========================services tabs
   function openCity(evt, cityName) {

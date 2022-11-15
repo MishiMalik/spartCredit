@@ -333,7 +333,8 @@ body {
 .prtners-slider img {
   height: 70px;
   width: auto;
-  object-fit: contain; }
+  object-fit: contain;
+  filter: grayscale(100%); }
 
 .owl-nav {
   display: none !important; }
@@ -563,7 +564,18 @@ body {
   padding: 20px;
   border-radius: 0px 40px 0px 40px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  background-color: white; }
+  background-color: white;
+  height: 100%;
+  position: relative; }
+  .package-card h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #032E42;
+    display: flex;
+    align-items: flex-end; }
+    .package-card h2 span {
+      font-size: 18px;
+      color: #81DBDB; }
   .package-card h1 {
     font-size: 22px;
     font-weight: 600;
@@ -591,8 +603,13 @@ body {
         color: #81DBDB;
         font-size: 20px; }
 
-.pkg-btn {
-  margin-bottom: -40px; }
+.pkg-btn-div {
+  position: absolute;
+  bottom: -31px;
+  left: 20%; }
+
+.tabcontent-duration {
+  display: none; }
 
 .footer {
   background-color: #13c5c5;
@@ -644,6 +661,11 @@ body {
 .copyright {
   border-top: 1px solid #FBFBFB;
   padding: 20px 0px 0px 0px; }
+
+.footer-img img {
+  width: 180px;
+  height: auto;
+  object-fit: cover; }
 
 .about-heading {
   background-position: right;
@@ -970,6 +992,67 @@ body {
     color: red;
     font-size: 20px !important;
     font-weight: 500; }
+
+.tabcontent-pkg {
+  display: none; }
+
+.tabcontent-pkgC {
+  display: none; }
+
+.tablinks {
+  background-color: #81DBDB;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 6px 30px !important;
+  border: 2px solid #81DBDB;
+  border-radius: 3px;
+  margin: 10px 3px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; }
+  .tablinks:hover {
+    background-color: white;
+    color: #81DBDB; }
+
+.active-pkg {
+  background-color: white;
+  color: #81DBDB; }
+
+.tablinksC {
+  background-color: #81DBDB;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 6px 30px !important;
+  border: 2px solid #81DBDB;
+  border-radius: 3px;
+  margin: 10px 3px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; }
+  .tablinksC:hover {
+    background-color: white;
+    color: #81DBDB; }
+
+.active-pkgC {
+  background-color: white;
+  color: #81DBDB; }
+
+.active-duration {
+  background-color: white !important;
+  color: #81DBDB !important; }
+
+.tablinksD {
+  background-color: #81DBDB;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 6px 30px !important;
+  border: 2px solid #81DBDB;
+  border-radius: 0px 30px 0px 30px;
+  margin: 10px 3px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  min-width: 220px; }
+  .tablinksD:hover {
+    background-color: white;
+    color: #81DBDB; }
 
 .contact-heading {
   background-image: url("/assets/images/contact.jpg");
