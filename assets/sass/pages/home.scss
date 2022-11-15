@@ -14,7 +14,13 @@
        }
     }
 }
-
+.logo-images{
+    height: 60px;
+    width: auto;
+    object-fit: cover;
+    filter: grayscale(100%);
+    margin-bottom: 40px;
+}
 
 
 
