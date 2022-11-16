@@ -19,6 +19,9 @@
     }
 }
 .results-text{
+    @media only screen and (max-width:991px){
+        margin-top: 0px !important;
+       }
     h1{
         font-size: 30px;
         font-weight: 600;

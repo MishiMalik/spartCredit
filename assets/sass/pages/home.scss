@@ -17,7 +17,7 @@
 .logo-images{
     height: 60px;
     width: auto;
-    object-fit: cover;
+    object-fit: contain;
     filter: grayscale(100%);
     margin-bottom: 40px;
 }
@@ -561,4 +561,44 @@
 width: 180px;
 height: auto;
 object-fit: cover;
+}
+
+
+// ========================================how it work
+.work{
+    padding: 10px 0px;
+    margin-bottom: 20px;
+    &-number{
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        border: 2px solid $primary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0 !important;
+        h1{
+            font-size: 26px;
+            font-weight: 600;
+            color: $primary;
+            margin: 0px !important;
+            padding: 0px !important;
+        }
+    }
+    &-heading{
+        h2{
+            margin: 0px !important;
+            padding: 0px !important;
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+}
+.ipad-img{
+    width: 400px;
+    height: auto;
+    border-radius: 0px 0px 20px 20px;
+    @media only screen and (max-width:479px){
+    width: 80%;
+    }
 }

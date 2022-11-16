@@ -23,6 +23,18 @@
 }
 }
 // ======================service btns
+.service-btn{
+    @media only screen and (max-width:991px){
+        padding: 0px !important;
+        margin: 0px !important;
+     }
+}
+.service-btn-active{
+    @media only screen and (max-width:991px){
+        padding: 0px !important;
+        margin: 0px !important;
+     }
+}
 .service-btn button{
     background-color: white;
     font-size: 18px !important;
@@ -35,6 +47,11 @@
     text-align: left;
     width: 100%;
     position: relative;
+    @media only screen and (max-width:991px){
+        display: none;
+        padding: 0px !important;
+        margin: 0px !important;
+     }
     &:hover{
         background-color: $primary;
         color: white;
@@ -60,6 +77,9 @@
     border: 2px solid $primary;
    text-align: left;
    position: relative;
+   @media only screen and (max-width:991px){
+    display: none;
+ }
    i{
     position: absolute;
     top: 15px;
@@ -69,11 +89,10 @@
    
 }
 .service-img img{
-    height: 450px;
+    height: 360px;
     width: 100%;
-    @media only screen and (max-width:479px){
-        height: 300px;
-        width: auto;
+    @media only screen and (max-width:991px){
+       display: none;
     }
 }
 .sm-none{

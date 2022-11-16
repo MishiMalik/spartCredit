@@ -211,7 +211,7 @@ body {
 .logo-images {
   height: 60px;
   width: auto;
-  object-fit: cover;
+  object-fit: contain;
   filter: grayscale(100%);
   margin-bottom: 40px; }
 
@@ -674,6 +674,38 @@ body {
   height: auto;
   object-fit: cover; }
 
+.work {
+  padding: 10px 0px;
+  margin-bottom: 20px; }
+  .work-number {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border: 2px solid #81DBDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0 !important; }
+    .work-number h1 {
+      font-size: 26px;
+      font-weight: 600;
+      color: #81DBDB;
+      margin: 0px !important;
+      padding: 0px !important; }
+  .work-heading h2 {
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 18px;
+    font-weight: 600; }
+
+.ipad-img {
+  width: 400px;
+  height: auto;
+  border-radius: 0px 0px 20px 20px; }
+  @media only screen and (max-width: 479px) {
+    .ipad-img {
+      width: 80%; } }
+
 .about-heading {
   background-position: right;
   background-repeat: no-repeat;
@@ -724,6 +756,10 @@ body {
     width: 100px;
     height: 3px;
     background-color: white; }
+
+@media only screen and (max-width: 991px) {
+  .results-text {
+    margin-top: 0px !important; } }
 
 .results-text h1 {
   font-size: 30px;
@@ -792,6 +828,16 @@ body {
     height: 3px;
     background-color: white; }
 
+@media only screen and (max-width: 991px) {
+  .service-btn {
+    padding: 0px !important;
+    margin: 0px !important; } }
+
+@media only screen and (max-width: 991px) {
+  .service-btn-active {
+    padding: 0px !important;
+    margin: 0px !important; } }
+
 .service-btn button {
   background-color: white;
   font-size: 18px !important;
@@ -804,6 +850,11 @@ body {
   text-align: left;
   width: 100%;
   position: relative; }
+  @media only screen and (max-width: 991px) {
+    .service-btn button {
+      display: none;
+      padding: 0px !important;
+      margin: 0px !important; } }
   .service-btn button:hover {
     background-color: #81DBDB;
     color: white; }
@@ -824,6 +875,9 @@ body {
   border: 2px solid #81DBDB;
   text-align: left;
   position: relative; }
+  @media only screen and (max-width: 991px) {
+    .service-btn-active button {
+      display: none; } }
   .service-btn-active button i {
     position: absolute;
     top: 15px;
@@ -831,12 +885,11 @@ body {
     font-size: 20px; }
 
 .service-img img {
-  height: 450px;
+  height: 360px;
   width: 100%; }
-  @media only screen and (max-width: 479px) {
+  @media only screen and (max-width: 991px) {
     .service-img img {
-      height: 300px;
-      width: auto; } }
+      display: none; } }
 
 @media only screen and (max-width: 479px) {
   .sm-none {
