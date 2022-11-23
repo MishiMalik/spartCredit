@@ -1,0 +1,23 @@
+.log-in-form{
+    border: 5px solid $light-gray !important;
+    border-radius: 5px;
+    padding: 20px;
+}
+.btn-log{
+    background-color: $primary;
+    padding: 8px 15px;
+    color: white !important;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+    width: 80%;
+    text-decoration: none !important;
+}
+.btn-log-a{
+    text-decoration: none !important;
+}
+.sign-up-tag{
+    color: $primary !important;
+    font-weight: 500;
+}

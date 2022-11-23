@@ -55,11 +55,19 @@
                                 <a class="navbar-brand" href="index.html">
                                     <img src="assets/images/logo.jpg" alt="" class="img-fluid">
                                 </a>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                <div class="d-flex">
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
+                                <a href="cart.html" class="cart-sm">
+                                    <div class="cart-icon">
+                                        <i class="bi bi-cart-plus-fill"></i>
+                                        <div class="cart-number">3</div>
+                                    </div>
+                                </a>
+                                </div>
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                                         <li class="nav-item">
@@ -96,6 +104,12 @@
                                     <div class="button">
                                         <a href="appointment.html"><button>Book Appointment</button></a>
                                     </div>
+                                    <a href="cart.html" class="cart-lg">
+                                        <div class="cart-icon">
+                                            <i class="bi bi-cart-plus-fill"></i>
+                                            <div class="cart-number">3</div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </nav>
@@ -120,7 +134,7 @@
             </div>
         </section> -->
 
-        <!-- ===================================================Results -->
+        <!-- =================================================== -->
 
         <section>
             <div class="container mt-4 pt-2 ">
@@ -162,8 +176,24 @@
                                 <li><i class="bi bi-check-lg me-3"></i>Transparency and security throughout the whole process</li>
                                 <li><i class="bi bi-check-lg me-3"></i>Ongoing support and guidance from our entire team</li>
                             </ul>
-                            <h2 class="results-heading-text mt-5"><i class="bi bi-stars me-2 f-28"></i>Tradelines Packages</h2>
-                            <h3>Lorem ipsum dolor, sit amet consectetur adipisicing.</h3>
+                           <div class="d-flex justify-content-between align-items-end sort-div">
+                            <div class="mb-3">
+                                <h2 class="results-heading-text mt-5"><i class="bi bi-stars me-2 f-28"></i>Tradelines Packages</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                            </div>
+
+                            <div class="custom-select mb-5" >
+                                <select>
+                                  <option value="0">Sort By:</option>
+                                  <option value="1">By name of the card/bank </option>
+                                  <option value="2">Credit limit </option>
+                                  <option value="3">Closing date </option>
+                                  <option value="4">Price</option>
+                                  <option value="5">Open slots or availability </option>
+                                  <option value="6">Age/year opened</option>
+                                </select>
+                              </div>
+                           </div>
                            </div>
                     </div>
 

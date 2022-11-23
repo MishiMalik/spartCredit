@@ -363,12 +363,13 @@ color: $primary;
     background-clip: border-box;
     border-radius: 6px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding:6px  10px 15px 10px;
+    padding:6px  10px 50px 10px;
     position: relative;
     height: 100%;
     .disabled-btn button{
         background-color: gray !important;
         scale: (1) !important;
+        cursor:not-allowed;
     }
     .add-to-cart{
         background-color: $primary;
@@ -381,6 +382,8 @@ color: $primary;
         font-weight: 500;
         border: none !important;
         padding: 8px 20px;
+        position: absolute;
+        bottom: 15px;
         &:hover{
             scale: (1.01);
         }
@@ -431,4 +434,175 @@ color: $primary;
     color: white;
     text-align: center;
     border-radius: 5px
+}
+
+
+// custome select
+/* The container must be positioned relative: */
+.custom-select {
+    position: relative;
+    font-family: Arial;
+    width: 230px;
+  }
+  
+  .custom-select select {
+    display: none; /*hide original SELECT element: */
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 6px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    border: none !important;
+    padding: 5px 10px !important;
+    color: black;
+   
+    &:focus{
+        outline: none;
+        border: none;
+    }
+  }
+  
+  
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: black transparent transparent transparent;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent black transparent;
+    top: 7px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-items div,.select-selected {
+    color: black;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+
+  }
+  
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  .select-items{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+  }
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .sort-div{
+    @media only screen and (max-width:767px){
+        flex-direction: column !important;
+        justify-content: space-between;
+    }
+  }
+  .cart-icon{
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    border: none !important;
+    padding: 5px 10px !important;
+    color: $primary;
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .cart-number{
+    background-color: $primary;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 18px;
+    width: 18px;
+    border-radius: 100%;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  .cart-lg{
+    display: inline;
+    @media only screen and (max-width:991px){
+        display: block;
+    }
+  }
+  .cart-sm{
+    display: none;
+    @media only screen and (max-width:991px){
+        display: inline;
+    }
+  }
+  .cart-table-img{
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+  }
+  .cart-table tbody tr{
+    border-bottom: 1px solid rgb(187, 184, 184);
+  }
+.cart-table tbody tr td{
+    height: 95px;
+    border-bottom: 0px !important;
+}
+.cart-table thead tr th{
+    white-space: nowrap;
+    background-color: $light-gray;
+    border-bottom:1px solid rgb(229, 226, 226) !important;
+    border-top: 1px solid rgb(229, 226, 226) !important;
+}
+.table-data{
+    padding-top: 35px !important;
+}
+.bi-x-square-fill{
+    cursor: pointer;
+}
+.cart-wrapper{
+    overflow-x: scroll;
+    
+}
+.cart-table{
+    
+    @media only screen and (max-width:991px){
+        width: 800px;
+    }
+}
+.checkout-btn{
+    background-color: $primary;
+    padding: 8px 10px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.agreement-input{
+    font-size: 14px;
+   border: none ;
+   border-bottom: 1px solid black;
+   &:active,
+   &:focus{
+    outline: none !important;
+    box-sizing: none !important;
+   }
 }
