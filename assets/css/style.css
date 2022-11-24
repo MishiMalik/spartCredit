@@ -1333,6 +1333,9 @@ body {
     outline: none !important;
     box-sizing: none !important; }
 
+.text-justify {
+  text-align: justify !important; }
+
 .contact-heading {
   background-image: url("/assets/images/contact.jpg");
   height: 70vh;
