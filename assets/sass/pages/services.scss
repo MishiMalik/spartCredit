@@ -430,7 +430,7 @@ color: $primary;
 }
 .copy-reserved{
     padding: 20px;
-    background-color: #5cb85c;
+    background-color: $primary;
     color: white;
     text-align: center;
     border-radius: 5px
@@ -579,7 +579,7 @@ color: $primary;
     cursor: pointer;
 }
 .cart-wrapper{
-    overflow-x: scroll;
+    overflow-x: auto;
     
 }
 .cart-table{

@@ -1176,7 +1176,7 @@ body {
 
 .copy-reserved {
   padding: 20px;
-  background-color: #5cb85c;
+  background-color: #81DBDB;
   color: white;
   text-align: center;
   border-radius: 5px; }
@@ -1311,7 +1311,7 @@ body {
   cursor: pointer; }
 
 .cart-wrapper {
-  overflow-x: scroll; }
+  overflow-x: auto; }
 
 @media only screen and (max-width: 991px) {
   .cart-table {
