@@ -1,7 +1,6 @@
 <?php include_once "assets/includes/header2.php" ?>
     <main>
 
-
         <!-- =================================================== -->
 
         <section>
