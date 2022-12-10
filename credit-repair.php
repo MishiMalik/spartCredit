@@ -1,124 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <!-- css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <!-- slider -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
-        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>CreditSpark</title>
-</head>
-
-<body>
-    <header>
-
-        <!-- +==============================================social header -->
-   <div class="social-header">
-            <div class="container">
-                <div class="d-flex justify-content-between align-items-center">
-                    <div class="d-flex align-items-center">
-                        <div class="d-flex align-items-centers">
-                            <i class="bi bi-telephone  text-primary f-18 me-2"></i>
-                            <p class="mb-0 pb-0 text-light f-16 w-500">+1 (800) 607-0603</p>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-end">
-                        <div class="d-flex align-items-centers">
-                            <a href=""><i class="bi bi-facebook text-primary f-18 me-3"></i></a>
-                            <a href=""><i class="bi bi-twitter text-primary f-18 me-3"></i></a>
-                            <a href=""><i class="bi bi-instagram text-primary f-18 me-3"></i></a>
-                            <a href=""> <i class="bi bi-linkedin text-primary f-18"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- ===============================================navbar -->
-        <div class="navbar-header">
-            <div class="container ">
-                <div class="row">
-                    <div class="col-lg-12 py-0">
-                        <nav class="navbar navbar-expand-lg navbar-light py-0 px-0">
-                            <div class="container-fluid px-0">
-                                <a class="navbar-brand" href="index.html">
-                                    <img src="assets/images/logo.jpg" alt="" class="img-fluid">
-                                </a>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                    aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                                        <li class="nav-item">
-                                            <a class="nav-link " aria-current="page" href="index.html">Home</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link " href="about.html">About</a>
-                                        </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle active-nav" href="#" id="navbarDropdown"
-                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Services
-                                            </a>
-                                           
-                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <li><a class="dropdown-item active-nav" href="credit-repair.html">Credit Repair</a></li>
-                                                <li><a class="dropdown-item" href="credit-approval.html">Credit Approvals</a></li>
-                                                <li><a class="dropdown-item" href="credit-limit.html">Increase Credit Limit</a></li>
-                                                <li><a class="dropdown-item" href="negative-item.html">Remove Negative Items</a></li>
-                                                <li><a class="dropdown-item " href="tradelines.html">Tradelines</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link " href="results.html">Results</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="education.html">Education</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link " href="contact.html">Contact</a>
-                                        </li>
-
-                                    </ul>
-                                    <div class="button">
-                                        <a href="appointment.html"><button>Book Appointment</button></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+<?php include_once "assets/includes/header.php" ?>
 
     <main>
 
-        <!-- ===================================================header -->
-
-        <!-- <section class="repair-heading">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1>Credit Repair Service</h1>
-                        <div class="line"></div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+     
 
         <!-- ===================================================Results -->
 
@@ -229,7 +113,7 @@
                          </ul>
                          <div class="d-flex justify-content-center pt-4 pkg-btn-div">
                             <div class="button pkg-btn ">
-                                <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                                <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                              </div>
                          </div>
                     </div>
@@ -259,7 +143,7 @@
                         </ul>
                         <div class="d-flex justify-content-center pt-4  pkg-btn-div">
                            <div class="button pkg-btn ">
-                               <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                               <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                             </div>
                         </div>
                    </div>
@@ -290,7 +174,7 @@
                         </ul>
                         <div class="d-flex justify-content-center pt-4  pkg-btn-div">
                            <div class="button pkg-btn ">
-                               <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                               <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                             </div>
                         </div>
                    </div>
@@ -322,7 +206,7 @@
                      </ul>
                      <div class="d-flex justify-content-center pt-4 pkg-btn-div">
                         <div class="button pkg-btn ">
-                            <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                            <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                          </div>
                      </div>
                 </div>
@@ -356,7 +240,7 @@
                      </ul>
                      <div class="d-flex justify-content-center pt-4">
                         <div class="button pkg-btn pkg-btn-div">
-                            <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                            <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                          </div>
                      </div>
                 </div>
@@ -387,7 +271,7 @@
                          </ul>
                          <div class="d-flex justify-content-center pt-4 pkg-btn-div">
                             <div class="button pkg-btn ">
-                                <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                                <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                              </div>
                          </div>
                     </div>
@@ -417,7 +301,7 @@
                         </ul>
                         <div class="d-flex justify-content-center pt-4  pkg-btn-div">
                            <div class="button pkg-btn ">
-                               <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                               <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                             </div>
                         </div>
                    </div>
@@ -448,7 +332,7 @@
                         </ul>
                         <div class="d-flex justify-content-center pt-4  pkg-btn-div">
                            <div class="button pkg-btn ">
-                               <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                               <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                             </div>
                         </div>
                    </div>
@@ -480,7 +364,7 @@
                      </ul>
                      <div class="d-flex justify-content-center pt-4 pkg-btn-div">
                         <div class="button pkg-btn ">
-                            <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                            <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                          </div>
                      </div>
                 </div>
@@ -514,7 +398,7 @@
                      </ul>
                      <div class="d-flex justify-content-center pt-4">
                         <div class="button pkg-btn pkg-btn-div">
-                            <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                            <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                          </div>
                      </div>
                 </div>
@@ -563,7 +447,7 @@
                          </ul>
                          <div class="d-flex justify-content-center pt-4  pkg-btn-div">
                             <div class="button pkg-btn ">
-                                <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                                <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                              </div>
                          </div>
                     </div>
@@ -593,7 +477,7 @@
                         </ul>
                         <div class="d-flex justify-content-center pt-4  pkg-btn-div">
                            <div class="button pkg-btn ">
-                               <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                               <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                             </div>
                         </div>
                    </div>
@@ -624,7 +508,7 @@
                         </ul>
                         <div class="d-flex justify-content-center pt-4  pkg-btn-div">
                            <div class="button pkg-btn ">
-                               <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                               <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                             </div>
                         </div>
                    </div>
@@ -658,7 +542,7 @@
                          </ul>
                          <div class="d-flex justify-content-center pt-4 pkg-btn-div">
                             <div class="button pkg-btn ">
-                                <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                                <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                              </div>
                          </div>
                     </div>
@@ -692,7 +576,7 @@
                          </ul>
                          <div class="d-flex justify-content-center pt-4 pkg-btn-div">
                             <div class="button pkg-btn ">
-                                <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                                <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                              </div>
                          </div>
                     </div>
@@ -722,7 +606,7 @@
                          </ul>
                          <div class="d-flex justify-content-center pt-4  pkg-btn-div">
                             <div class="button pkg-btn ">
-                                <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                                <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                              </div>
                          </div>
                     </div>
@@ -752,7 +636,7 @@
                         </ul>
                         <div class="d-flex justify-content-center pt-4  pkg-btn-div">
                            <div class="button pkg-btn ">
-                               <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                               <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                             </div>
                         </div>
                    </div>
@@ -783,7 +667,7 @@
                         </ul>
                         <div class="d-flex justify-content-center pt-4  pkg-btn-div">
                            <div class="button pkg-btn ">
-                               <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                               <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                             </div>
                         </div>
                    </div>
@@ -816,7 +700,7 @@
                      </ul>
                      <div class="d-flex justify-content-center pt-4 pkg-btn-div">
                         <div class="button pkg-btn ">
-                            <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                            <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                          </div>
                      </div>
                 </div>
@@ -850,7 +734,7 @@
                      </ul>
                      <div class="d-flex justify-content-center pt-4 pkg-btn-div">
                         <div class="button pkg-btn ">
-                            <a href="package-details.html"><button class="mx-4">View Pricing Details</button></a>
+                            <a href="package-details.php"><button class="mx-4">View Pricing Details</button></a>
                          </div>
                      </div>
                 </div>
@@ -861,72 +745,6 @@
            </section>
 
 
-
-
-
-       <!-- ===================================================Footer -->
-        <footer class="footer ">
-           <div class="container">
-            <div class="row">
-                <div class="col-lg-3 mx-auto mt-3">
-                    <h1 class="footer-heading">About</h1>
-                    <div class="d-flex justify-content-start footer-img">
-                       <a href=""> <img src="assets/images/icons/google-pay-app-store-app-pay-popular-realistic-payment-logotype-payment-icon-set-editorial-vector-illustration-2H32DD1-removebg-preview (1).png" alt="" class="img-fluid"></a>
-                    </div>
-                    
-                </div>
-                <div class="col-lg-3 mx-auto mt-3">
-                    <h1 class="footer-heading">Our Services</h1>
-                   <p> <a href="credit-repair.html">Credit Repair</a></p>
-                   <p> <a href="credit-approval.html">Credit Approval</a></p>
-                   <p> <a href="credit-limit.html">Credit Limit</a></p>
-                   <p> <a href="tradelines.html">Tradelines</a></p>
-                   
-                </div>
-                <div class="col-lg-3 mx-auto mt-3">
-                    <h1 class="footer-heading">Quick Links</h1>
-                    <p><a href="index.html">Home</a></p>
-                    <p><a href="about.html">About Us</a></p>
-                    <p><a href="results.html">Results</a></p>
-                    <p> <a href="education.html">Education</a></p>
-                    <p><a href="contact.html">Contact</a></p>
-                </div>
-                <div class="col-lg-3 mx-auto mt-3">
-                    <h1 class="footer-heading">Contact Us</h1>
-                    <p><a href=""><i class="bi bi-telephone-fill me-2"></i>1 (800) 607-0603</a></p>
-                   <p> <a href=""><i class="bi bi-geo-alt-fill me-2"></i> 711 Bay Area Blvd
-                    Suite 292
-                    Webster, TX 77598</a></p>
-                    <div class="d-flex footer-social">
-                        <div><a href=""><i class="bi bi-facebook"></i></a></div>
-                        <div><a href=""><i class="bi bi-twitter"></i></a></div>
-                        <div><a href=""><i class="bi bi-instagram"></i></a></div>
-                        <div><a href=""><i class="bi bi-linkedin"></i></a></div>
-                    </div>
-                    
-                </div>
-
-                <div class="col-lg-12 mt-4 copyright">
-                    <p class="text-center text-white f-14">Copyright © 2022 SparkCredit.</p>
-                </div>
-            </div>
-           </div>
-        </footer>
-
     </main>
 
-
-
-
-    <script src="https://code.jquery.com/jquery-3.6.1.slim.js"
-        integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="assets/js/app.js"></script>
-</body>
-
-</html>
+    <?php include_once "includes/footer.php" ?>
