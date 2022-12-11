@@ -55,11 +55,35 @@
                                 <a class="navbar-brand" href="index.php">
                                     <img src="assets/images/logo.jpg" alt="" class="img-fluid">
                                 </a>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
-                                </button>
+                                </button> -->
+                                <div class="d-flex">
+                                    <!-- <a href="cart.php" class="cart-sm">
+                                        <div class="cart-icon">
+                                            <i class="bi bi-cart-plus-fill"></i>
+                                            <div class="cart-number">3</div>
+                                        </div>
+                                    </a> -->
+                                    <!-- <div class="dropdown cart-sm me-2">
+                                        <button class="dropdown-toggle profile-dropdown" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="bi bi-person-fill"></i>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                          <li><a class="dropdown-item" href="#">Action</a></li>
+                                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </div> -->
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    
+                                </div>
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                                         <li class="nav-item">
@@ -93,8 +117,26 @@
                                         </li>
 
                                     </ul>
-                                    <div class="button">
+                                    <!-- <div class="button">
                                         <a href="appointment.php"><button>Book Appointment</button></a>
+                                    </div> -->
+                                    <div>
+                                    <a href="cart.php" class="">
+                                        <div class="cart-icon">
+                                            <i class="bi bi-cart-plus-fill"></i>
+                                            <div class="cart-number">3</div>
+                                        </div>
+                                    </a>
+                                    </div>
+                                    <div class="dropdown ">
+                                        <button class="dropdown-toggle profile-dropdown" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="bi bi-person-fill"></i>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                          <li><a class="dropdown-item" href="#">Action</a></li>
+                                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>

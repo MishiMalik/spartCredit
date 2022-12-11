@@ -74,6 +74,7 @@
     color: $secondary;
    padding: 10px 15px;
    top: 55px !important;
+   left: -120px !important;
     .dropdown-item{
         font-size: 18px;
         font-weight: 500;
@@ -85,5 +86,8 @@
             background-color: white;
             color: $primary !important;
         }
+    }
+    @media only screen and (max-width:991px){
+        left: unset !important;
     }
 }
