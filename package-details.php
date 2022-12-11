@@ -2,12 +2,33 @@
 
 
     <main>
-        <section class="package-details">
+    <section class="package-details">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 mx-auto my-5">
+                        
+                        <div class="details-card">
+                            <p class="f-20 w-500">
+                                Book a pta ni keri Appointment Now!
+                            </p>
+                            <div class="d-flex justify-content-end">
+                            <div class="button">
+                                        <a href="appointment.php"><button>Book Appointment</button></a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="package-details">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 mx-auto mb-5">
                         <div class="about-text mb-3">
-                            <h2 class="small-heading mb-2"><i class="bi bi-stars me-2 f-28"></i>Individual Packages
+                            <h2 class="small-heading mb-2"><i class="bi bi-stars me-2 f-28"></i>Package Details
                             </h2>
                             <h1>Individual Credit subscription Package Pricing Details</h1>
                         </div>
